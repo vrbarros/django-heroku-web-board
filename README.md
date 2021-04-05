@@ -20,3 +20,22 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+4. Run the server locally
+
+```bash
+python webboard/manage.py runserver
+```
+
+5. Open browser at `http://localhost:8000/`
+
+
+# Quick Start with Docker
+
+1. Build the new Docker
+
+```bash
+docker-compose up ---build
+```
+
+2. Open browser at `http://localhost:8001/`

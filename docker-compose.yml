@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: django-heroku-web-board
+    container_name: django-heroku-web-board-web
+    command: /bin/bash -c "/code/docker/django/start.sh"
+    restart: on-failure
+    volumes:
+      - .:/code
+    ports:
+      - '8001:8000'
+    networks:
+      - network
+    environment:
+      DJANGO_SETTINGS_MODULE: ${DJANGO_SETTINGS_MODULE:-webboard.settings}
+networks:
+  network:
