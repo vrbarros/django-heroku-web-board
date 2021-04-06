@@ -1,3 +1,27 @@
 {
-    "python.pythonPath": "venv/bin/python"
+  "python.pythonPath": "venv/bin/python",
+  "python.linting.pylintEnabled": false,
+  "python.formatting.provider": "black",
+  "python.sortImports.args": ["-sp .isort.cfg"],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "auto-close-tag.activationOnLanguage": ["django-html"],
+  "beautify.language": {
+    "html": ["django-html"]
+  },
+  "[django-html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true
 }

@@ -39,3 +39,8 @@ docker-compose up ---build
 ```
 
 2. Open browser at `http://localhost:8001/`
+
+
+## References
+
+* [Heroku Python: Getting Started](https://github.com/heroku/python-getting-started)

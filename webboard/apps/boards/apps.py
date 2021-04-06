@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class BoardsConfig(AppConfig):
-    name = 'apps.boards'
+    name = "webboard.apps.boards"
