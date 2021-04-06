@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from webproject.boards import views
+from apps.boards import views
 
 urlpatterns = [
     path('', views.home, name='home'),

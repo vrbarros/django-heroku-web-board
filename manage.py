@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ['DJANGO_SETTINGS_MODULE'] = 'webproject.webboard.settings.local'
+    os.environ['DJANGO_SETTINGS_MODULE'] = 'webboard.settings.local'
 
     try:
         from django.core.management import execute_from_command_line

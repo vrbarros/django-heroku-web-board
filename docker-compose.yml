@@ -16,6 +16,6 @@ services:
     networks:
       - network
     environment:
-      DJANGO_SETTINGS_MODULE: ${DJANGO_SETTINGS_MODULE:-webproject.webboard.settings.local}
+      DJANGO_SETTINGS_MODULE: ${DJANGO_SETTINGS_MODULE:-webboard.settings.local}
 networks:
   network:
