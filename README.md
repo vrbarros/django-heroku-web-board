@@ -24,7 +24,7 @@ pip install -r requirements.txt
 4. Run the server locally
 
 ```bash
-python webboard/manage.py runserver
+python manage.py runserver
 ```
 
 5. Open browser at `http://localhost:8000/`
