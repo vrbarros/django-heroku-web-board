@@ -1,6 +1,8 @@
 # django-heroku-web-board
 🔬 Study project with Django and Heroku
 
+The project is deploy at [Heroku](https://django-heroku-web-board.herokuapp.com/).
+
 
 ## Features
 
