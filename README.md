@@ -1,6 +1,17 @@
 # django-heroku-web-board
 🔬 Study project with Django and Heroku
 
+
+## Features
+
+- Django
+- Multiple settings
+- Custom project folder structure with apps folder
+- Black, isort and flake8 support with VSCode
+- .editorconfig and Makefile
+- Docker support for local development
+- Heroku ready deployment
+
 ## Quick Start with virtualenv
 
 1. Create a virtualenv with Python 3.8
